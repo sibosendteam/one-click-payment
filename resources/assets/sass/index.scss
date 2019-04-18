@@ -1,0 +1,460 @@
+@charset "utf-8";
+*, abbr, address, article, aside, audio, b, blockquote, body, button,
+canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure,
+footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label,
+legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub,
+summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  list-style-type: none;
+  vertical-align: baseline;
+  font-family: LTXH, "方正兰亭细黑", Microsoft Yahei, Hiragino Sans GB, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+//html, body {
+//  font-size: 62.5% !important;
+//  background: #fdfdfd;
+//}
+
+img {
+  border: 0
+}
+
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+img {
+  -ms-interpolation-mode: bicubic
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block
+}
+
+a {
+  color: #000;
+  text-decoration: none
+}
+
+li, nav ul {
+  list-style: none
+}
+
+blockquote, q {
+  quotes: none
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+  content: '';
+  content: none
+}
+
+.outline[type=checkbox]:focus, .outline[type=password]:focus, .outline[type=radio]:focus, .outline[type=submit]:focus, .outline[type=text]:focus, a, button[type=button]
+:focus, button[type=submit]:focus, input[type=checkbox]:focus, input[type=password]
+:focus, input[type=radio]:focus, input[type=reset]:focus, input[type=submit]
+:focus, input[type=text]:focus {
+  outline: 0
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  background: 0 0;
+  vertical-align: baseline;
+  text-decoration: none;
+  font-size: 100%
+}
+
+a:hover {
+  cursor: pointer
+}
+
+em {
+  color: #cc9f6e;
+}
+
+ins {
+  text-decoration: none
+}
+
+ins, mark {
+  background-color: #ff9;
+  color: #000
+}
+
+mark {
+  font-weight: 700;
+  font-style: italic
+}
+
+del {
+  text-decoration: line-through
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+hr {
+  display: block;
+  margin: 1em 0;
+  padding: 0;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc
+}
+
+button, input, select, textarea {
+  margin: 0;
+  vertical-align: middle;
+  font-size: 100%
+}
+
+button, input {
+  line-height: normal
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  padding: 0;
+  border: 0
+}
+
+button, html
+input[type=button], input[type=reset], input[type=submit] {
+  cursor: pointer;
+  -webkit-appearance: button
+}
+
+button, input[type=button], input[type=checkbox], input[type=radio], input[type=reset], input[type=submit], label, select {
+  cursor: pointer
+}
+
+input[type=search
+] {
+  box-sizing: content-box;
+  -webkit-appearance: textfield
+}
+
+input[type=search], button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+//input[type=search]::-webkit-search-cancel-,
+//button, input[type=search]::-webkit-search-decoration {
+//  -webkit-appearance: none
+//}
+
+textarea {
+  overflow: auto;
+  vertical-align: top
+}
+
+u {
+  display: block;
+  background: no-repeat;
+  background-position: 50% 50%
+}
+
+.clearfix:after {
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+  content: "."
+}
+
+.dis-box {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flex;
+  display: flex;
+  //display: -ms-box;
+  //display: box;
+}
+
+.box-flex {
+  -webkit-box-flex: 1.0;
+  -moz-box-flex: 1.0;
+  -ms-box-flex: 1.0;
+  box-flex: 1.0;
+  display: block;
+  width: 100%;
+}
+
+.clearfix {
+  display: inline-block
+}
+
+* html .clearfix {
+  height: 1%
+}
+
+.con {
+  width: 100%;
+  min-width: 1278px;
+  position: relative;
+  padding-bottom: 0;
+}
+
+.banner img, .fotter img {
+  width: 100%;
+  min-height: 400px;
+  display: block;
+}
+
+.top {
+  width: 1278px;
+  display: block;
+  margin: 0 auto;
+}
+
+.top img {
+  display: block;
+}
+
+.tittle img {
+  height: 80px;
+  margin-bottom: 60px;
+}
+
+.word1 {
+  width: 1280px;
+}
+
+.word1 ul {
+  display: block;
+  overflow: hidden;
+}
+
+.word1 ul li {
+  display: block;
+  float: left;
+  background: #f7faff;
+  width: 350px;
+  height: 270px;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-right: 60px;
+  position: relative;
+}
+
+.word1 ul li span {
+  width: 70px;
+  height: 70px;
+  display: block;
+  text-align: center;
+  margin: 50px auto 20px;
+}
+
+.word1 ul li em img {
+  position: absolute;
+  right: 35px;
+  top: 0;
+}
+
+.word1 ul li span i.icon {
+  //background: url(/images/v.png);
+  background-repeat: no-repeat;
+  display: block;
+  height: 70px;
+}
+
+.word1 ul li span i.icon1 {
+  background-position: 3px 5px;
+}
+
+.word1 ul li span i.icon2 {
+  background-position: 3px -70px;
+}
+
+.word1 ul li span i.icon3 {
+  background-position: 6px -148px
+}
+
+.word1 ul li span i.icon4 {
+  background-position: 3px -299px;
+}
+
+.word1 ul li span i.icon5 {
+  background-position: 6px -371px;
+}
+
+.word1 ul li span i.icon6 {
+  background-position: 7px -224px;
+}
+
+.word1 ul li span i.icon7 {
+  background-position: 6px -442px;
+}
+
+.word1 ul li span i.icon8 {
+  background-position: 1px -518px;
+}
+
+.word1 ul li span i.icon9 {
+  background-position: 0px -590px;
+}
+
+.li60 {
+  margin-right: 60px;
+}
+
+.word1 ul li h4, .word3 ul li i {
+  font-size: 20px;
+  color: #770eed;
+  font-family: "微软雅黑";
+  font-weight: 500;
+}
+
+.word1 ul li h5 {
+  font-weight: normal;
+  padding-top: 10px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #504e4e;
+}
+
+.top1 {
+  margin-top: 70px;
+}
+
+.word2 .tit1 {
+  color: #fff;
+  background: #770eed;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 90px;
+}
+
+.word2 .tit1 span {
+  border: solid 1px #eeeef2;
+}
+
+.word2 .tit1 b {
+  color: #ffd400;
+  font-size: 14px;
+}
+
+.word2 ul {
+  padding: 0;
+}
+
+.word2 ul li {
+}
+
+.word2 ul li > span {
+  border: solid 1px #eeeef2;
+}
+
+.word2 ul li .span1 > img {
+  display: block;
+  margin-left: 30%;
+  float: left;
+  padding-top: 7px;
+  max-width: 40px;
+}
+
+.word2 ul li .span1 {
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+}
+
+.word2 ul li .span1 b {
+  margin-left: 10%;
+  display: block;
+  float: left;
+  color: #7e7c7c;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.word2 ul li span i.icon01 {
+  //background: url(/image/banner.jpg);
+  background-repeat: no-repeat;
+  display: block;
+  height: 35px;
+  margin: 8px auto 0;
+  width: 35px;
+}
+
+.word2 ul li span i.icon02 {
+  background-position: 0px -6px;
+}
+
+.word2 ul li span i.icon03 {
+  background-position: 0px -38px;
+}
+
+.word2 ul li:nth-child(even) {
+  background: #e5f1ff;
+}
+
+.word2 .tit2 {
+  border: solid 1px #eeeef2;
+  border-top: none;
+  padding: 15px 0px;
+  margin-bottom: 70px;
+}
+
+.word2 .tit2 a {
+  background: #e5004f;
+  color: #fff;
+  font-size: 18px;
+  width: 350px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  -moz-left-radius: 10px;
+  -webkit-left-radius: 10px;
+}
+
+.word3 ul {
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+
+.word3 ul li {
+  display: block;
+  float: left;
+  background: #f7faff;
+  padding-left: 25px;
+  width: 550px;
+  margin-right: 43px;
+  height: 180px;
+  margin-bottom: 25px;
+}
+
+.word3 ul li i {
+  font-size: 22px;
+  padding-top: 25px;
+  display: block;
+}
+
+.word3 ul li p {
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #514e4e;
+}
+
+.fotter {
+  background: #4e14ab;
+}

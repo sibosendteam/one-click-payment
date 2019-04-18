@@ -1,0 +1,191 @@
+//// Fonts
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+//
+//// Variables
+//@import "variables";
+//
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.medal-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+.mar-top {
+  margin-top: 60px;
+}
+
+.mobile_con {
+  width: 100%;
+  display: block;
+}
+
+.mobile_po img {
+  display: block;
+}
+
+.mobile_po a {
+  display: block;
+}
+
+.weixin-pay-cover {
+  margin-left: -20px;
+}
+
+.weixin-pay-cover .weixin-pay {
+
+}
+
+.weixin-pay-cover .need-pay {
+  font-size: 18px;
+  color: #999;
+  padding-bottom: 20px
+}
+
+.weixin-pay-cover .need-pay .bill-amount {
+  color: #ff6029
+}
+
+.weixin-pay-cover .qrcode-wrapper {
+  width: 205px;
+  margin: 0 auto
+}
+
+.weixin-pay-cover .qrcode-wrapper .qrcode-block {
+  border: 1px solid #ccc
+}
+
+.weixin-pay-cover .qrcode-wrapper .qrcode {
+  //top: -22px;
+  //left: -40px;
+}
+
+//.weixin-pay-cover .qrcode-wrapper.fail .qrcode, .weixin-pay-cover .qrcode-wrapper .qrcode-fail {
+//  display: block;
+//}
+
+//.weixin-pay-cover .qrcode-wrapper.fail .qrcode-fail {
+//  display: block;
+//  padding: 12px;
+//  width: 174px;
+//  height: 174px
+//}
+
+//.weixin-pay-cover .qrcode-wrapper.fail .qrcode-fail .warning {
+//  margin: 55px auto;
+//  background-image: url('/image/pay_icon.png');
+//  background-position: -184px 0;
+//  width: 98px;
+//  height: 64px
+//}
+
+//.weixin-pay-cover .qrcode-wrapper.fail .qrcode-fail .renew {
+//  text-decoration: none;
+//  font-size: 14px;
+//  font-weight: 700;
+//  display: block;
+//  margin-top: -14px
+//}
+
+//.weixin-pay-cover .qrcode-wrapper.fail .qrcode-fail .renew:active, .weixin-pay-cover .qrcode-wrapper.fail .qrcode-fail .renew:focus, .weixin-pay-cover .qrcode-wrapper.fail .qrcode-fail .renew:hover, .weixin-pay-cover .qrcode-wrapper.fail .qrcode-fail .renew:link, .weixin-pay-cover .qrcode-wrapper.fail .qrcode-fail .renew:visited {
+//  color: #999;
+//  outline: none
+//}
+
+.weixin-pay-cover .qrcode-wrapper .desc {
+  *zoom: 1;
+  font-size: 14px;
+  font-weight: 700;
+  color: #999;
+  padding: 33px 0 28px 22px;
+  text-align: left
+}
+
+//.weixin-pay-cover .qrcode-wrapper .desc:after, .weixin-pay-cover .qrcode-wrapper .desc:before {
+//  content: " ";
+//  display: table
+//}
+//
+//.weixin-pay-cover .qrcode-wrapper .desc:after {
+//  clear: both
+//}
+
+.weixin-pay-cover .qrcode-wrapper .desc .icon {
+  float: left;
+  background-image: url('/image/pay_icon.png');
+  background-position: -184px -65px;
+  width: 36px;
+  height: 36px
+}
+
+.weixin-pay-cover .qrcode-wrapper .desc .text {
+  float: left;
+  padding-top: 0px;
+  margin-left: 20px
+}
+
+.weixin-pay-cover .tips {
+  position: absolute;
+  top: 18%;
+  right: 103px;
+  background-image: url('/image/pay_icon.png');
+  background-position: 0 0;
+  width: 183px;
+  height: 162px
+}
+
+.mobile .mobile-background {
+  background: #765385;
+}
+
+//
+//.mobile .mobile-background .mobile-form-control {
+//  height: 50px;
+//  line-height: 20px;
+//  font-size: 16px;
+//  font-weight: 600;
+//  padding: 37px 180px 36px 34px;
+//  padding-right: 34px;
+//  border-radius: 38px
+//}
+//
+//.mobile-background .mobile-btn-primary {
+//  width: auto;
+//  color: #fff;
+//  background-color: #40b883;
+//  border-color: #40b883;
+//  height: 75px;
+//  border-radius: 38px;
+//  text-transform: uppercase;
+//  font-weight: 700;
+//  padding-left: 30px;
+//  padding-right: 30px;
+//  position: absolute;
+//  right: 0
+//}
+//
+//.btn-sms-code {
+//  width: 125px;
+//  color: #fff;
+//  background-color: #7b89b8;
+//  border-color: #7b89b8;
+//  height: 35px;
+//  border-radius: 5px;
+//  //text-transform: uppercase;
+//  font-weight: 600;
+//  //padding-left: 30px;
+//  //padding-right: 30px;
+//  //position: absolute;
+//  margin-left: -15px;
+//  right: 0
+//}
+
+//.btn-sms-code:hover {
+//  background: #6979b8;
+//}
+//
+//.btn-sms-code:disabled {
+//  background: #9a9db8;
+//}
