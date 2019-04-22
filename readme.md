@@ -13,8 +13,6 @@
 
 ## 效果预览
 
-**[在线预览 &rarr;](https://le.lebandu.com)**
-
 1. PC
 
    ![screenshot](/screenshots/pc.png)
@@ -38,7 +36,7 @@
 
 **windows系统**
 
-依次执行上述步骤1-4，[详情参考](https://learnku.com/docs/laravel/5.6/installation/1216)
+依次执行上述步骤1-4，[详情参考](https://laravel.com/docs/5.6/installation)
 
 ## JS编译
 
